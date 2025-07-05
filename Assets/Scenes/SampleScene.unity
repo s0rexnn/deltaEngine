@@ -410,6 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ef99038d09af8e418e2179d414ec57c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetAspect: 1.3333334
 --- !u!1 &633704364
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,9 +668,9 @@ GameObject:
   - component: {fileID: 1201356694}
   - component: {fileID: 1201356693}
   - component: {fileID: 1201356695}
-  - component: {fileID: 1201356696}
   - component: {fileID: 1201356697}
   - component: {fileID: 1201356698}
+  - component: {fileID: 1201356699}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -774,21 +775,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1201356696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201356692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a9ad3513953b24d80bd1484c48401f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3.5
-  rb: {fileID: 1201356695}
-  anim: {fileID: 1201356697}
 --- !u!95 &1201356697
 Animator:
   serializedVersion: 7
@@ -857,6 +843,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1.94}
   m_EdgeRadius: 0
+--- !u!114 &1201356699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201356692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a9ad3513953b24d80bd1484c48401f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  rb: {fileID: 1201356695}
+  anim: {fileID: 1201356697}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
