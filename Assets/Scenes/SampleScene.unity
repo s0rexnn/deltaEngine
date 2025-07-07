@@ -668,9 +668,9 @@ GameObject:
   - component: {fileID: 1201356694}
   - component: {fileID: 1201356693}
   - component: {fileID: 1201356695}
-  - component: {fileID: 1201356697}
   - component: {fileID: 1201356698}
   - component: {fileID: 1201356699}
+  - component: {fileID: 1201356697}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -856,6 +856,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  runningSpeed: 5
+  maxRunningSpeed: 10
+  acceleration: 0.1
   rb: {fileID: 1201356695}
   anim: {fileID: 1201356697}
 --- !u!1660057539 &9223372036854775807
