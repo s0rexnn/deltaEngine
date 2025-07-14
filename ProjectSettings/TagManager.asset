@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Wall
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -40,6 +42,9 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 990411193
+    locked: 0
+  - name: Objects
+    uniqueID: 877919975
     locked: 0
   - name: Characters
     uniqueID: 1166001973

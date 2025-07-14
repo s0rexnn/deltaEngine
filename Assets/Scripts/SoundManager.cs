@@ -1,6 +1,4 @@
 using UnityEngine;
-
-
 public enum SoundType
 {
     MENU_CLICK,
@@ -11,7 +9,7 @@ public enum SoundType
 public class SoundManager : MonoBehaviour
 {
     [SerializeField] private AudioClip[] soundList;
-    private static SoundManager instance;
+    public static SoundManager instance { get; private set; }
     private AudioSource audioSource;
 
     private void Awake()
@@ -20,6 +18,10 @@ public class SoundManager : MonoBehaviour
         {
             instance = this;
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void Start()
@@ -27,9 +29,20 @@ public class SoundManager : MonoBehaviour
        audioSource = GetComponent<AudioSource>();
     }
 
+
+    // This function plays a specific sound from the enum //
     public static void PlaySound(SoundType sound, float volume = 1f)
     {
         instance.audioSource.PlayOneShot(instance.soundList[(int)sound], volume);
 
+    }
+
+    // This function plays a custom sound clip from the inspector [Used in other scripts] //
+    public static void PlayCustomSound(AudioClip clip, float volume = 1f)
+    {
+        if (clip != null)
+        {
+            instance.audioSource.PlayOneShot(clip, volume);
+        }
     }
 }

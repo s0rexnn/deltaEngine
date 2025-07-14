@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class SimpleMenuManager : MonoBehaviour
+public class MenuManager : MonoBehaviour
 {
     [System.Serializable]
     public class MenuUI
     {
         public string name;
-        public RectTransform panel;     // The menu panel to slide
-        public Vector2 hiddenPosition;  // Where the panel starts (off-screen)
-        public Vector2 shownPosition;   // Where the panel slides to (on-screen)
+        public RectTransform panel;    
+        public Vector2 hiddenPosition;  
+        public Vector2 shownPosition;   
         public float slideSpeed = 2f;
 
         [HideInInspector]
@@ -18,7 +18,6 @@ public class SimpleMenuManager : MonoBehaviour
     public MenuUI[] menus; // Assign multiple menus in the Inspector
     public GameObject player;
     public Animator playerAnimator;
-
     private Movement playerMovement;
 
     void Start()
@@ -58,17 +57,22 @@ public class SimpleMenuManager : MonoBehaviour
         }
 
         // Disable player movement if any menu is open
-        bool menuOpen = false;
+
+        GameStateManager.Instance.inMenu = false;
         foreach (var menu in menus)
         {
             if (menu.isOpen)
-                menuOpen = true;
+            {
+                GameStateManager.Instance.inMenu = true;
+                break;
+            }
         }
 
-        playerMovement.enabled = !menuOpen;
+        playerMovement.canMove = !GameStateManager.Instance.inMenu;
 
-        if (menuOpen)
+        if (GameStateManager.Instance.inMenu)
         {
+            playerMovement.canMove = false;
             player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
             playerAnimator.SetFloat("moveX", playerMovement.LastDirection.x);
             playerAnimator.SetFloat("moveY", playerMovement.LastDirection.y);
