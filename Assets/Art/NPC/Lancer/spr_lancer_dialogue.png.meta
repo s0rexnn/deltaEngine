@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 9852abdff82945f47bc60d490a4b7383
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1259854599855416257
+    second: spr_lancer_dialogue_0
+  - first:
+      213: 1483871162528920390
+    second: spr_lancer_dialogue_1
+  - first:
+      213: 4728672651941957490
+    second: spr_lancer_dialogue_2
+  - first:
+      213: -3273652681327956768
+    second: spr_lancer_dialogue_3
+  - first:
+      213: -781585449552896022
+    second: spr_lancer_dialogue_4
+  - first:
+      213: -8663444610451915211
+    second: spr_lancer_dialogue_5
+  - first:
+      213: 7077474517509500146
+    second: spr_lancer_dialogue_6
+  - first:
+      213: -994058629706545670
+    second: spr_lancer_dialogue_7
+  - first:
+      213: -5237557365019484423
+    second: spr_lancer_dialogue_8
+  - first:
+      213: -6486699233297646070
+    second: spr_lancer_dialogue_9
+  - first:
+      213: 7327133481706420985
+    second: spr_lancer_dialogue_10
+  - first:
+      213: -234689527576743975
+    second: spr_lancer_dialogue_11
+  - first:
+      213: -1450466125612542343
+    second: spr_lancer_dialogue_12
+  - first:
+      213: -8369215736650609692
+    second: spr_lancer_dialogue_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 63
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cd9fa9ae8148ee0800000000000000
+      internalID: -1259854599855416257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 61
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6437bfed5f4c79410800000000000000
+      internalID: 1483871162528920390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 65
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fca1e29be9f9140800000000000000
+      internalID: 4728672651941957490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 62
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec217b1b36a192d0800000000000000
+      internalID: -3273652681327956768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 64
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef19c5bc204725f0800000000000000
+      internalID: -781585449552896022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 66
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ebdb6170345c780800000000000000
+      internalID: -8663444610451915211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_6
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 64
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc680b539d383260800000000000000
+      internalID: 7077474517509500146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af50e6a61f46432f0800000000000000
+      internalID: -994058629706545670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe584783557057b0800000000000000
+      internalID: -5237557365019484423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 5
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ebe725a6d9af5a0800000000000000
+      internalID: -6486699233297646070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_10
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 5
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa7bfea4153fa560800000000000000
+      internalID: 7327133481706420985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 3
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfa84c3e173ebcf0800000000000000
+      internalID: -234689527576743975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_12
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 3
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97690206eb8eedbe0800000000000000
+      internalID: -1450466125612542343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_lancer_dialogue_13
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 4
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebc45821a29adb80800000000000000
+      internalID: -8369215736650609692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f070fd44caf2b8346a8f7dd3d4e0fbf4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":5.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spr_lancer_dialogue_0: -1259854599855416257
+      spr_lancer_dialogue_1: 1483871162528920390
+      spr_lancer_dialogue_10: 7327133481706420985
+      spr_lancer_dialogue_11: -234689527576743975
+      spr_lancer_dialogue_12: -1450466125612542343
+      spr_lancer_dialogue_13: -8369215736650609692
+      spr_lancer_dialogue_2: 4728672651941957490
+      spr_lancer_dialogue_3: -3273652681327956768
+      spr_lancer_dialogue_4: -781585449552896022
+      spr_lancer_dialogue_5: -8663444610451915211
+      spr_lancer_dialogue_6: 7077474517509500146
+      spr_lancer_dialogue_7: -994058629706545670
+      spr_lancer_dialogue_8: -5237557365019484423
+      spr_lancer_dialogue_9: -6486699233297646070
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

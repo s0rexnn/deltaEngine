@@ -13,7 +13,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Wall
   - 
   - 
   - 
@@ -46,7 +46,7 @@ TagManager:
   - name: Objects
     uniqueID: 877919975
     locked: 0
-  - name: Characters
+  - name: Main Layer
     uniqueID: 1166001973
     locked: 0
   - name: UI

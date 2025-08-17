@@ -1,6 +1,7 @@
 using NUnit.Framework.Internal.Filters;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Movement : MonoBehaviour
 {
@@ -11,34 +12,36 @@ public class Movement : MonoBehaviour
     private bool isMoving = false;
     public bool canMove = true;
 
-
     public Vector2 LastDirection => lastMoveDirection;
     private Vector2 lastMoveDirection = Vector2.down;
+    private Vector2 input;
 
-    public Rigidbody2D rb;
     public Animator anim;
+    private Rigidbody2D rb;
 
     private void Awake()
     {
         anim = GetComponentInChildren<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate()
+    private void Update()
     {
         if (GameStateManager.Instance.CanPlayerMove)
         {
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
+            input = new Vector2(horizontal, vertical).normalized;
 
-            Vector2 movement = new Vector2(horizontal, vertical);
+            isMoving = input != Vector2.zero;
+
             float currentSpeed = walkingSpeed;
 
-            if (Input.GetKey(KeyCode.LeftShift) && movement != Vector2.zero || !canMove)
-            {
-                runningSpeed += acceleration;
+            if (Input.GetKey(KeyCode.LeftShift) && isMoving || !canMove)
+            { 
+                runningSpeed += acceleration * Time.deltaTime;
                 runningSpeed = Mathf.Clamp(runningSpeed, walkingSpeed, maxSpeed);
                 currentSpeed = runningSpeed;
-                anim.speed = 1.7f;
             }
             else
             {
@@ -46,36 +49,47 @@ public class Movement : MonoBehaviour
                 anim.speed = 1f;
             }
 
-            rb.linearVelocity = movement.normalized * currentSpeed;
+            if (currentSpeed > 4.5f)
+                anim.speed = 1.8f;
+            else if (currentSpeed > 3.5f)
+                anim.speed = 1.4f;
 
-            if (rb.linearVelocity.sqrMagnitude > 0.01f)
+            if (isMoving)
             {
-                anim.SetFloat("moveX", rb.linearVelocity.x);
-                anim.SetFloat("moveY", rb.linearVelocity.y);
-                isMoving = true;
-                lastMoveDirection = movement;
-            }
-            else
-            {
-                rb.linearVelocity = Vector2.zero;
-                isMoving = false;
-                anim.SetFloat("moveX", lastMoveDirection.x);
-                anim.SetFloat("moveY", lastMoveDirection.y);
+                lastMoveDirection = input;
             }
 
             anim.SetBool("isMoving", isMoving);
 
+            if (isMoving)
+            {
+                if (Mathf.Abs(input.y) > 0)
+                {
+                    anim.SetFloat("moveY", input.y);
+                    anim.SetFloat("moveX", 0);
+                }
+                else if (Mathf.Abs(input.x) > 0)
+                {
+                    anim.SetFloat("moveX", input.x);
+                    anim.SetFloat("moveY", 0);
+                }
+            }
+            else
+            {
+                anim.SetFloat("moveX", lastMoveDirection.x);
+                anim.SetFloat("moveY", lastMoveDirection.y);
+            }
+        }
+        
+    }
 
-            if (Mathf.Abs(movement.y) > 0)
-            {
-                anim.SetFloat("moveY", vertical);
-                anim.SetFloat("moveX", 0);
-            }
-            else if (Mathf.Abs(movement.x) > 0)
-            {
-                anim.SetFloat("moveX", horizontal);
-                anim.SetFloat("moveY", 0);
-            }
+    private void FixedUpdate()
+    {
+        if (GameStateManager.Instance.CanPlayerMove && canMove)
+        {
+            float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? runningSpeed : walkingSpeed;
+            Vector2 move = input * currentSpeed;
+            rb.MovePosition(rb.position + move * Time.fixedDeltaTime);
         }
     }
 }

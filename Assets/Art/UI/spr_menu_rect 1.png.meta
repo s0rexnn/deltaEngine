@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: aed94131ea7547e40a32f4705b6545bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6989251631454272527
+    second: spr_menu_rect 1_0
+  - first:
+      213: -7893508773765835393
+    second: spr_menu_rect 1_1
+  - first:
+      213: 6136141981428404978
+    second: spr_menu_rect 1_2
+  - first:
+      213: 8919606400740508415
+    second: spr_menu_rect 1_3
+  - first:
+      213: 7485291275479772686
+    second: spr_menu_rect 1_4
+  - first:
+      213: -9064352299990899194
+    second: spr_menu_rect 1_5
+  - first:
+      213: 7249021967669787526
+    second: spr_menu_rect 1_6
+  - first:
+      213: -6374168205675414320
+    second: spr_menu_rect 1_7
+  - first:
+      213: 7714822293004247624
+    second: spr_menu_rect 1_8
+  - first:
+      213: -8651390518308328157
+    second: spr_menu_rect 1_9
+  - first:
+      213: -5648932465780269909
+    second: spr_menu_rect 1_10
+  - first:
+      213: -4320712779600513865
+    second: spr_menu_rect 1_11
+  - first:
+      213: 276434618187857843
+    second: spr_menu_rect 1_12
+  - first:
+      213: 4823350245442865711
+    second: spr_menu_rect 1_13
+  - first:
+      213: 822418079835434804
+    second: spr_menu_rect 1_14
+  - first:
+      213: -2862909378236470547
+    second: spr_menu_rect 1_15
+  - first:
+      213: 5948331709020007156
+    second: spr_menu_rect 1_16
+  - first:
+      213: -7501086136607013830
+    second: spr_menu_rect 1_17
+  - first:
+      213: 458692074734813084
+    second: spr_menu_rect 1_18
+  - first:
+      213: 8759960784170558438
+    second: spr_menu_rect 1_19
+  - first:
+      213: -4663922075783855177
+    second: spr_menu_rect 1_20
+  - first:
+      213: 2228993542945192298
+    second: spr_menu_rect 1_21
+  - first:
+      213: -5109163262706452939
+    second: spr_menu_rect 1_22
+  - first:
+      213: -2785380876548680789
+    second: spr_menu_rect 1_23
+  - first:
+      213: -3339879026428666449
+    second: spr_menu_rect 1_24
+  - first:
+      213: -6882057826494266821
+    second: spr_menu_rect 1_25
+  - first:
+      213: -1301707034458361588
+    second: spr_menu_rect 1_26
+  - first:
+      213: -1718170018788159469
+    second: spr_menu_rect 1_27
+  - first:
+      213: 3608461288794846959
+    second: spr_menu_rect 1_28
+  - first:
+      213: 8477540216763058215
+    second: spr_menu_rect 1_29
+  - first:
+      213: -3098739364045541166
+    second: spr_menu_rect 1_30
+  - first:
+      213: -766857745272486178
+    second: spr_menu_rect 1_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_menu_rect 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 240
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3495dfba0310f90800000000000000
+      internalID: -6989251631454272527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_menu_rect 1_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 126
+        width: 240
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f751244879f947290800000000000000
+      internalID: -7893508773765835393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_menu_rect 1_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 240
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2d6661f94f72550800000000000000
+      internalID: 6136141981428404978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_menu_rect 1_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 85
+        width: 240
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2407c63cec8cb70800000000000000
+      internalID: 8919606400740508415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_menu_rect 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 240
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e6d4b91c811e760800000000000000
+      internalID: 7485291275479772686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_menu_rect 1_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 44
+        width: 240
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6062c00bb93f43280800000000000000
+      internalID: -9064352299990899194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_menu_rect 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 240
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bf5f79213b99460800000000000000
+      internalID: 7249021967669787526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_menu_rect 1_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 3
+        width: 240
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcb02ae9c76a87a0800000000000000
+      internalID: -6374168205675414320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 844ee3047fd35d242805104003d77e36
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":4.0},"gridSpriteSize":{"x":240.0,"y":41.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spr_menu_rect 1_0: -6989251631454272527
+      spr_menu_rect 1_1: -7893508773765835393
+      spr_menu_rect 1_2: 6136141981428404978
+      spr_menu_rect 1_3: 8919606400740508415
+      spr_menu_rect 1_4: 7485291275479772686
+      spr_menu_rect 1_5: -9064352299990899194
+      spr_menu_rect 1_6: 7249021967669787526
+      spr_menu_rect 1_7: -6374168205675414320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50897fd9add2bb543bc7e8b79f8ec2ca, type: 3}
+  m_Name: LancerDialogue
+  m_EditorClassIdentifier: 
+  lines:
+  - text: "* Testing 1, 2, 3!\n* Seems like It's\n  working!"
+    portrait: {fileID: -3273652681327956768, guid: 9852abdff82945f47bc60d490a4b7383, type: 3}
+  - text: "* Loooook kris, \n  I'm mogging."
+    portrait: {fileID: -994058629706545670, guid: 9852abdff82945f47bc60d490a4b7383, type: 3}
+  - text: "* By the way Kris,\n  when do you plan\n  adding SUSIE?!"
+    portrait: {fileID: 4728672651941957490, guid: 9852abdff82945f47bc60d490a4b7383, type: 3}
+  typingSpeed: 0.017
+  typingSound: {fileID: 8300000, guid: 468d112ab7d8df040a21d268fc6658dd, type: 3}
+  portrait: {fileID: 1483871162528920390, guid: 9852abdff82945f47bc60d490a4b7383, type: 3}
