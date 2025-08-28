@@ -40,6 +40,7 @@ public class GameStateManager : MonoBehaviour
         if (GameStateManager.Instance.inDialogue || GameStateManager.Instance.inMenu)
         {
             CanPlayerMove = false;
+            playerMovement.isMoving = false;
         }
         else
         {
