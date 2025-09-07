@@ -13,8 +13,16 @@ MonoBehaviour:
   m_Name: RuddinDialogue
   m_EditorClassIdentifier: 
   lines:
-  - text: "* You finally got it\n  working, good job."
+  - text: "* one day...\n* I will conquer all of\n  MY ENEMIES!!!\n"
     portrait: {fileID: 0}
     typingSpeed: 0.01
     typingSound: {fileID: 8300000, guid: 102f5c3a5252e0642b102c1416b28f7c, type: 3}
+  - text: '* Uhhhhhhhhh'
+    portrait: {fileID: 764282907053352182, guid: 1e6c7d1a9c1984c4fa81858d1164aef9, type: 3}
+    typingSpeed: 0.01
+    typingSound: {fileID: 8300000, guid: c94aaef083719cb4c948c3752ea417ee, type: 3}
+  - text: '* Whatever dude.'
+    portrait: {fileID: 8836249857228110059, guid: 1e6c7d1a9c1984c4fa81858d1164aef9, type: 3}
+    typingSpeed: 0.01
+    typingSound: {fileID: 8300000, guid: c94aaef083719cb4c948c3752ea417ee, type: 3}
   portrait: {fileID: 0}

@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class PartyLeader : MonoBehaviour
 {
+    public enum PartyMemebers { First }
+    public PartyMemebers partyMemebers = PartyMemebers.First;
+
     [Header("Trail Settings")]
     public int maxPositions = 1000; 
     public List<Vector2> positions = new List<Vector2>();

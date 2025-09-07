@@ -651,7 +651,7 @@ Canvas:
   m_RenderMode: 1
   m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -2612,10 +2612,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1201356694}
   - component: {fileID: 1201356702}
+  - component: {fileID: 1201356703}
   - component: {fileID: 1201356699}
   - component: {fileID: 1201356704}
   - component: {fileID: 1201356701}
-  - component: {fileID: 1201356703}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2800,6 +2800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f471163b2c2e90c46837566a3ab48901, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  partyMemebers: 0
   maxPositions: 500
   positions: []
 --- !u!1 &1541265442
@@ -3356,9 +3357,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axisLock: 0
+  partyMemebers: 0
   leader: {fileID: 1201356704}
   speed: 0
-  stepsBehind: 10
+  stepsBehind: 12
   anim: {fileID: 1545184944}
 --- !u!1 &1645714166
 GameObject:

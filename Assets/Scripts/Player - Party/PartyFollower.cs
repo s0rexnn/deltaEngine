@@ -4,6 +4,8 @@ public class PartyFollower : MonoBehaviour
 {
     public enum AxisLock { None, Horizontal, Vertical }
     public AxisLock axisLock = AxisLock.None;
+    public enum PartyMemebers { Second, Third }
+    public PartyMemebers partyMemebers = PartyMemebers.Second;
 
     [Header("Adjustments")]
     [SerializeField] private PartyLeader leader;
@@ -58,8 +60,8 @@ public class PartyFollower : MonoBehaviour
 
         if (isMoving)
         {
-            bool hasX = Mathf.Abs(inputVector.x) > 0.05f;
-            bool hasY = Mathf.Abs(inputVector.y) > 0.05f;
+            bool hasX = Mathf.Abs(inputVector.x) > 0.02f;
+            bool hasY = Mathf.Abs(inputVector.y) > 0.02f;
 
             if (!hasX && !hasY)
             {
@@ -91,25 +93,26 @@ public class PartyFollower : MonoBehaviour
             float xDir = 0f;
             float yDir = 0f;
             
-            if (Mathf.Abs(inputVector.x) > 0.01f)
+            if (Mathf.Abs(inputVector.x) > 0.02f)
                 xDir = Mathf.Sign(inputVector.x);
-            if (Mathf.Abs(inputVector.y) > 0.01f)
+            if (Mathf.Abs(inputVector.y) > 0.02f)
                 yDir = Mathf.Sign(inputVector.y);
 
-            lastMoveDirection = new Vector2(xDir, yDir);  
             if (axisLock == AxisLock.Horizontal)
             {
                 anim.SetFloat("moveX", xDir);
                 anim.SetFloat("moveY", 0f);
+                lastMoveDirection = new Vector2(xDir, 0f);
             }
             else if (axisLock == AxisLock.Vertical)
             {
                 anim.SetFloat("moveX", 0f);
                 anim.SetFloat("moveY", yDir);
+                lastMoveDirection = new Vector2(0f, yDir);  
             }
         
         }
-        else
+        else if (axisLock == AxisLock.None)
         {
             anim.SetFloat("moveX", lastMoveDirection.x);
             anim.SetFloat("moveY", lastMoveDirection.y);
