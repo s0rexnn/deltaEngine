@@ -15,6 +15,6 @@ MonoBehaviour:
   lines:
   - text: "* You finally got it\n  working, good job."
     portrait: {fileID: 0}
-  typingSpeed: 0.017
-  typingSound: {fileID: 8300000, guid: 102f5c3a5252e0642b102c1416b28f7c, type: 3}
+    typingSpeed: 0.01
+    typingSound: {fileID: 8300000, guid: 102f5c3a5252e0642b102c1416b28f7c, type: 3}
   portrait: {fileID: 0}

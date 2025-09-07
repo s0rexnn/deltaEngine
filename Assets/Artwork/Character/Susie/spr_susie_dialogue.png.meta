@@ -1,0 +1,1484 @@
+fileFormatVersion: 2
+guid: 1e6c7d1a9c1984c4fa81858d1164aef9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5515844673856526023
+    second: spr_susie_dialogue_0
+  - first:
+      213: 3331647484530089509
+    second: spr_susie_dialogue_1
+  - first:
+      213: -6540811935446616359
+    second: spr_susie_dialogue_2
+  - first:
+      213: 5500351166335611593
+    second: spr_susie_dialogue_3
+  - first:
+      213: -4423577428897158159
+    second: spr_susie_dialogue_4
+  - first:
+      213: -7767746012016516825
+    second: spr_susie_dialogue_5
+  - first:
+      213: 764282907053352182
+    second: spr_susie_dialogue_6
+  - first:
+      213: -8899786648652154703
+    second: spr_susie_dialogue_7
+  - first:
+      213: -8619214172536596763
+    second: spr_susie_dialogue_8
+  - first:
+      213: 132107961136522809
+    second: spr_susie_dialogue_9
+  - first:
+      213: -6655234827965852969
+    second: spr_susie_dialogue_10
+  - first:
+      213: -2869869874685058848
+    second: spr_susie_dialogue_11
+  - first:
+      213: 2670924175323572070
+    second: spr_susie_dialogue_12
+  - first:
+      213: -6369412167116968415
+    second: spr_susie_dialogue_13
+  - first:
+      213: 7792155717807091695
+    second: spr_susie_dialogue_14
+  - first:
+      213: 3983481486904978560
+    second: spr_susie_dialogue_15
+  - first:
+      213: -1065914711522976989
+    second: spr_susie_dialogue_16
+  - first:
+      213: -8854792749813495882
+    second: spr_susie_dialogue_17
+  - first:
+      213: 8836249857228110059
+    second: spr_susie_dialogue_18
+  - first:
+      213: 3709774884772626742
+    second: spr_susie_dialogue_19
+  - first:
+      213: 67915450148452078
+    second: spr_susie_dialogue_20
+  - first:
+      213: 5011879343880052348
+    second: spr_susie_dialogue_21
+  - first:
+      213: 8063090096637534072
+    second: spr_susie_dialogue_22
+  - first:
+      213: 2462261971759318335
+    second: spr_susie_dialogue_23
+  - first:
+      213: -9132160077811564224
+    second: spr_susie_dialogue_24
+  - first:
+      213: 485250946383555420
+    second: spr_susie_dialogue_25
+  - first:
+      213: -3448921701323498818
+    second: spr_susie_dialogue_26
+  - first:
+      213: -7194209450176263859
+    second: spr_susie_dialogue_27
+  - first:
+      213: -5469945097194561918
+    second: spr_susie_dialogue_28
+  - first:
+      213: 392554735438473446
+    second: spr_susie_dialogue_29
+  - first:
+      213: -2467150779417989088
+    second: spr_susie_dialogue_30
+  - first:
+      213: 8829781936758644363
+    second: spr_susie_dialogue_31
+  - first:
+      213: 8431712664127600639
+    second: spr_susie_dialogue_32
+  - first:
+      213: -5952722399778228978
+    second: spr_susie_dialogue_33
+  - first:
+      213: 587101845646435411
+    second: spr_susie_dialogue_34
+  - first:
+      213: 3091026465697376612
+    second: spr_susie_dialogue_35
+  - first:
+      213: -2242158910007768674
+    second: spr_susie_dialogue_36
+  - first:
+      213: -3347766656166348007
+    second: spr_susie_dialogue_37
+  - first:
+      213: -7468031127129830056
+    second: spr_susie_dialogue_38
+  - first:
+      213: -7909708220141479345
+    second: spr_susie_dialogue_39
+  - first:
+      213: 8341083611179733257
+    second: spr_susie_dialogue_40
+  - first:
+      213: 4122061727916228301
+    second: spr_susie_dialogue_41
+  - first:
+      213: -6503647002038380104
+    second: spr_susie_dialogue_42
+  - first:
+      213: 2033843833198976908
+    second: spr_susie_dialogue_43
+  - first:
+      213: 6437264877366695934
+    second: spr_susie_dialogue_44
+  - first:
+      213: 469383341381306668
+    second: spr_susie_dialogue_45
+  - first:
+      213: 8209707772769423322
+    second: spr_susie_dialogue_46
+  - first:
+      213: 7742136388061234687
+    second: spr_susie_dialogue_47
+  - first:
+      213: -2240847946693689611
+    second: spr_susie_dialogue_48
+  - first:
+      213: 6324151591364118731
+    second: spr_susie_dialogue_49
+  - first:
+      213: -6632848389585927981
+    second: spr_susie_dialogue_50
+  - first:
+      213: -4241788728488418786
+    second: spr_susie_dialogue_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_susie_dialogue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9392d8a4e78c373b0800000000000000
+      internalID: -5515844673856526023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e5d304cb36c3e20800000000000000
+      internalID: 3331647484530089509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6b11d033e5a35a0800000000000000
+      internalID: -6540811935446616359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2f6516e3c255c40800000000000000
+      internalID: 5500351166335611593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb262af3cb4c92c0800000000000000
+      internalID: -4423577428897158159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7216c48482c633490800000000000000
+      internalID: -7767746012016516825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f461de21474b9a00800000000000000
+      internalID: 764282907053352182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8f256323b9d7480800000000000000
+      internalID: -8899786648652154703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e691fa6066626880800000000000000
+      internalID: -8619214172536596763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9362b8f9d7755d100800000000000000
+      internalID: 132107961136522809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d299465f2bd3a3a0800000000000000
+      internalID: -6655234827965852969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e06dcfdd8c2c28d0800000000000000
+      internalID: -2869869874685058848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6672a24e267011520800000000000000
+      internalID: 2670924175323572070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_13
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e21fe616d4b97a0800000000000000
+      internalID: -6369412167116968415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_14
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 57
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefab6a375c432c60800000000000000
+      internalID: 7792155717807091695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_15
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 56
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ce0549e4b284730800000000000000
+      internalID: 3983481486904978560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 56
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b5fc2a73c1531f0800000000000000
+      internalID: -1065914711522976989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_17
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 56
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b789a3a8e47d1580800000000000000
+      internalID: -8854792749813495882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_18
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 56
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be87daebd6aa0aa70800000000000000
+      internalID: 8836249857228110059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_19
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 56
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631c98b3a94cb7330800000000000000
+      internalID: 3709774884772626742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 56
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6fbd8fdb841f000800000000000000
+      internalID: 67915450148452078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_21
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 56
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e961d85b5cd8540800000000000000
+      internalID: 5011879343880052348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_22
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 56
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fdc0a09b9d5ef60800000000000000
+      internalID: 8063090096637534072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_23
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 56
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35caaab736bb2220800000000000000
+      internalID: 2462261971759318335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_24
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 56
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041c9022bcc044180800000000000000
+      internalID: -9132160077811564224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_25
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 59
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b2d1e2a25fbb600800000000000000
+      internalID: 485250946383555420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba1a7e5cf7f220d0800000000000000
+      internalID: -3448921701323498818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_27
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d494c722f98092c90800000000000000
+      internalID: -7194209450176263859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e14d44ae9d614b0800000000000000
+      internalID: -5469945097194561918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e825b8b372a27500800000000000000
+      internalID: 392554735438473446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0207679007be2cdd0800000000000000
+      internalID: -2467150779417989088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_31
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ed8a8a3efa98a70800000000000000
+      internalID: 8829781936758644363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_32
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7fc71bef5730570800000000000000
+      internalID: 8431712664127600639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0535ba248ea36da0800000000000000
+      internalID: -5952722399778228978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3546bbc940ec52800800000000000000
+      internalID: 587101845646435411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_35
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469293f813885ea20800000000000000
+      internalID: 3091026465697376612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99820fc95042e0e0800000000000000
+      internalID: -2242158910007768674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_37
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bbe44a6f75a81d0800000000000000
+      internalID: -3347766656166348007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_38
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dcdd7d1493c5890800000000000000
+      internalID: -7468031127129830056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_39
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ada7df7421b3290800000000000000
+      internalID: -7909708220141479345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_40
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9015336f95b71c370800000000000000
+      internalID: 8341083611179733257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_41
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcefdaa4d41843930800000000000000
+      internalID: 4122061727916228301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9d7fa62876eb5a0800000000000000
+      internalID: -6503647002038380104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_43
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f9176c03aa93c10800000000000000
+      internalID: 2033843833198976908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_44
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef75a84cc42c55950800000000000000
+      internalID: 6437264877366695934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_45
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29c48e79a5938600800000000000000
+      internalID: 469383341381306668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_46
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf4fa1f8bdbee170800000000000000
+      internalID: 8209707772769423322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_47
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5040d7608917b60800000000000000
+      internalID: 7742136388061234687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_48
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5feb8ad3aa8e6e0e0800000000000000
+      internalID: -2240847946693689611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_49
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8caf49d56e3c750800000000000000
+      internalID: 6324151591364118731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_50
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d085b1388363f3a0800000000000000
+      internalID: -6632848389585927981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_susie_dialogue_51
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12213a10a32225c0800000000000000
+      internalID: -4241788728488418786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 03136f3e01cfcd34da09758fab170221
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      spr_susie_dialogue_0: -5515844673856526023
+      spr_susie_dialogue_1: 3331647484530089509
+      spr_susie_dialogue_10: -6655234827965852969
+      spr_susie_dialogue_11: -2869869874685058848
+      spr_susie_dialogue_12: 2670924175323572070
+      spr_susie_dialogue_13: -6369412167116968415
+      spr_susie_dialogue_14: 7792155717807091695
+      spr_susie_dialogue_15: 3983481486904978560
+      spr_susie_dialogue_16: -1065914711522976989
+      spr_susie_dialogue_17: -8854792749813495882
+      spr_susie_dialogue_18: 8836249857228110059
+      spr_susie_dialogue_19: 3709774884772626742
+      spr_susie_dialogue_2: -6540811935446616359
+      spr_susie_dialogue_20: 67915450148452078
+      spr_susie_dialogue_21: 5011879343880052348
+      spr_susie_dialogue_22: 8063090096637534072
+      spr_susie_dialogue_23: 2462261971759318335
+      spr_susie_dialogue_24: -9132160077811564224
+      spr_susie_dialogue_25: 485250946383555420
+      spr_susie_dialogue_26: -3448921701323498818
+      spr_susie_dialogue_27: -7194209450176263859
+      spr_susie_dialogue_28: -5469945097194561918
+      spr_susie_dialogue_29: 392554735438473446
+      spr_susie_dialogue_3: 5500351166335611593
+      spr_susie_dialogue_30: -2467150779417989088
+      spr_susie_dialogue_31: 8829781936758644363
+      spr_susie_dialogue_32: 8431712664127600639
+      spr_susie_dialogue_33: -5952722399778228978
+      spr_susie_dialogue_34: 587101845646435411
+      spr_susie_dialogue_35: 3091026465697376612
+      spr_susie_dialogue_36: -2242158910007768674
+      spr_susie_dialogue_37: -3347766656166348007
+      spr_susie_dialogue_38: -7468031127129830056
+      spr_susie_dialogue_39: -7909708220141479345
+      spr_susie_dialogue_4: -4423577428897158159
+      spr_susie_dialogue_40: 8341083611179733257
+      spr_susie_dialogue_41: 4122061727916228301
+      spr_susie_dialogue_42: -6503647002038380104
+      spr_susie_dialogue_43: 2033843833198976908
+      spr_susie_dialogue_44: 6437264877366695934
+      spr_susie_dialogue_45: 469383341381306668
+      spr_susie_dialogue_46: 8209707772769423322
+      spr_susie_dialogue_47: 7742136388061234687
+      spr_susie_dialogue_48: -2240847946693689611
+      spr_susie_dialogue_49: 6324151591364118731
+      spr_susie_dialogue_5: -7767746012016516825
+      spr_susie_dialogue_50: -6632848389585927981
+      spr_susie_dialogue_51: -4241788728488418786
+      spr_susie_dialogue_6: 764282907053352182
+      spr_susie_dialogue_7: -8899786648652154703
+      spr_susie_dialogue_8: -8619214172536596763
+      spr_susie_dialogue_9: 132107961136522809
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

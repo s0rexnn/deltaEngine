@@ -74,14 +74,14 @@ public class NPC : MonoBehaviour
         portraitImage.gameObject.SetActive(true);
         GameStateManager.Instance.inDialogue = true;
 
-        StartCoroutine(TypeLine(dialogueData.lines[currentLineIndex].text, dialogueData.typingSound));
+        DialogueLine currentLine = dialogueData.lines[currentLineIndex];
+        StartCoroutine(TypeLine(currentLine.text, currentLine.typingSound, currentLine.typingSpeed));
     }
 
     void ShowPortraitForCurrentLine()
     {
         Sprite linePortrait = dialogueData.lines[currentLineIndex].portrait;
         linePosition.hasPortrait = dialogueData.lines[currentLineIndex].portrait != null;
-
 
         if (linePortrait != null)
         {
@@ -97,10 +97,9 @@ public class NPC : MonoBehaviour
         {
             linePosition.hasPortrait = false;
         }
-
     }
 
-    IEnumerator TypeLine(string line, AudioClip typingSound)
+    IEnumerator TypeLine(string line, AudioClip typingSound, float typingSpeed)
     {
         isTyping = true;
         dialogueText.text = "";
@@ -117,7 +116,7 @@ public class NPC : MonoBehaviour
             if (typingSound != null)
                 SoundManager.PlayCustomSound(typingSound, 0.3f);
 
-            yield return new WaitForSeconds(dialogueData.typingSpeed);
+            yield return new WaitForSeconds(typingSpeed);
         }
 
         isTyping = false;
@@ -134,7 +133,8 @@ public class NPC : MonoBehaviour
         else if (++currentLineIndex < dialogueData.lines.Length)
         {
             ShowPortraitForCurrentLine();
-            StartCoroutine(TypeLine(dialogueData.lines[currentLineIndex].text, dialogueData.typingSound));
+            DialogueLine currentLine = dialogueData.lines[currentLineIndex];
+            StartCoroutine(TypeLine(currentLine.text, currentLine.typingSound, currentLine.typingSpeed));
         }
         else
         {
