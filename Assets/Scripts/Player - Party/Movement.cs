@@ -5,8 +5,8 @@ using UnityEngine.UIElements;
 
 public class Movement : MonoBehaviour
 {
-    private enum AxisLock { None, Horizontal, Vertical }
-    private AxisLock axisLock = AxisLock.None;
+    public enum AxisLock { None, Horizontal, Vertical }
+    public AxisLock axisLock = AxisLock.None;
 
     [Header("Movement Settings")]
     public float walkingSpeed = 0f;
@@ -110,7 +110,7 @@ public class Movement : MonoBehaviour
                     anim.SetFloat("moveX", 0f);
                 }
             }
-            else
+            if (!isMoving)
             {
                 anim.SetFloat("moveX", lastMoveDirection.x);
                 anim.SetFloat("moveY", lastMoveDirection.y);

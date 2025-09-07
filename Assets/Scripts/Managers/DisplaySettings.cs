@@ -5,7 +5,7 @@ public class DisplaySettings : MonoBehaviour
     [Header("Display Settings")]
     [SerializeField] private int targetWidth = 960;
     [SerializeField] private int targetHeight = 720;
-    [SerializeField] private int targetFrameRate = 60;
+    [SerializeField] private int targetFrameRate = 30;
     [SerializeField] private bool startFullscreen = false;
     
     [Header("Aspect Ratio Control")]
@@ -19,6 +19,8 @@ public class DisplaySettings : MonoBehaviour
 
     void Awake()
     {
+        Application.targetFrameRate = targetFrameRate;
+        
         mainCamera = GetComponent<Camera>();
         if (mainCamera == null)
             mainCamera = Camera.main;
