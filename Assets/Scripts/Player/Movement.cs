@@ -25,6 +25,9 @@ public class Movement : MonoBehaviour
     public Animator anim;
     private Rigidbody2D rb;
 
+    [Header("Pixel Snapping")]
+    [SerializeField] private int pixelsPerUnit = 16;
+
     private void Awake()
     {
         anim = GetComponentInChildren<Animator>();
@@ -38,8 +41,9 @@ public class Movement : MonoBehaviour
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
             input = new Vector2(horizontal, vertical);
+
             bool diagonal = input.x != 0f && input.y != 0f;
-            const float diagBoost = 1.10f;
+            const float diagBoost = 1.411f;
             input = diagonal ? input.normalized * diagBoost : input.normalized;
 
             isMoving = input != Vector2.zero;
@@ -88,12 +92,12 @@ public class Movement : MonoBehaviour
                 anim.speed = 1.0f;
 
             if (isMoving)
-                {
-                    if (axisLock == AxisLock.Horizontal)
-                        lastMoveDirection = new Vector2(Mathf.Sign(input.x), 0f);
-                    else if (axisLock == AxisLock.Vertical)
-                        lastMoveDirection = new Vector2(0f, Mathf.Sign(input.y));
-                }
+            {
+                if (axisLock == AxisLock.Horizontal)
+                    lastMoveDirection = new Vector2(Mathf.Sign(input.x), 0f);
+                else if (axisLock == AxisLock.Vertical)
+                    lastMoveDirection = new Vector2(0f, Mathf.Sign(input.y));
+            }
 
             anim.SetBool("isMoving", isMoving);
 
@@ -124,7 +128,14 @@ public class Movement : MonoBehaviour
         {
             float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? runningSpeed : walkingSpeed;
             Vector2 move = input * currentSpeed;
-            rb.MovePosition(rb.position + move * Time.fixedDeltaTime);
+            Vector2 targetPos = rb.position + move * Time.fixedDeltaTime;
+
+            // snap before moving
+            float snap = 1f / pixelsPerUnit;
+            targetPos.x = Mathf.Round(targetPos.x / snap) * snap;
+            targetPos.y = Mathf.Round(targetPos.y / snap) * snap;
+
+            rb.MovePosition(targetPos);
         }
     }
 }

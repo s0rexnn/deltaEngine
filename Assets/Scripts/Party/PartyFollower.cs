@@ -40,7 +40,7 @@ public class PartyFollower : MonoBehaviour
                 transform.position = Vector2.MoveTowards(
                    transform.position,
                    targetPos,
-                   speed * Time.deltaTime
+                 speed * Time.deltaTime
                 );
             }
             else

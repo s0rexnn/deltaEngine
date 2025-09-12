@@ -1,12 +1,11 @@
-=== d_Lancer ===
-[*]  TESTING TESTING TESTING
-[*]  ONE TWO THREE
+=== d_Noelle ===
+[*] H-Hey Noelle...
+[*] S-SUSIE?? WHAT ARE YOU DOING HERE?!?!
+[
 
 -> DONE
 
-=== d_Ruddin ===
-[*] I'm Ruddin!
-[*] Different text!
+
 -> END
 
 

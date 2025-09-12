@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class DTCamera : MonoBehaviour
+public class DRCamera : MonoBehaviour
 {
-    public static DTCamera Instance { get; private set; }
-
     [Header("Camera Following")]
     [SerializeField] private Transform followTarget;
     [SerializeField] private Vector2 offset = Vector2.zero;
@@ -11,17 +9,8 @@ public class DTCamera : MonoBehaviour
     [Header("Polygon Boundaries")]
     [SerializeField] public PolygonCollider2D boundaryPolygon;
 
-    [Header("Pixel-Perfect")]
-    [SerializeField] private bool pixelPerfect = true;
-    [SerializeField] private int pixelsPerUnit = 32; // match your sprites’ PPU
-
     private Camera cam;
-
-    void Awake()
-    {
-        Instance = this;
-    }
-
+    
     void Start()
     {
         cam = GetComponent<Camera>();
@@ -32,15 +21,12 @@ public class DTCamera : MonoBehaviour
     {
         if (!followTarget) return;
 
-        // Target position = player + offset
         Vector3 targetPos = followTarget.position + (Vector3)offset;
         targetPos.z = transform.position.z;
 
-        // Clamp inside room
         if (boundaryPolygon) targetPos = ConstrainToBounds(targetPos);
 
-        // Pixel-perfect rounding (optional)
-        transform.position = PixelRound(targetPos);
+        transform.position = targetPos;
     }
 
     private Vector3 ConstrainToBounds(Vector3 pos)
@@ -61,14 +47,6 @@ public class DTCamera : MonoBehaviour
         float y = (minY <= maxY) ? Mathf.Clamp(pos.y, minY, maxY) : b.center.y;
 
         return new Vector3(x, y, pos.z);
-    }
-
-    private Vector3 PixelRound(Vector3 worldPos)
-    {
-        if (!pixelPerfect || pixelsPerUnit <= 0) return worldPos;
-        float x = Mathf.Round(worldPos.x * pixelsPerUnit) / pixelsPerUnit;
-        float y = Mathf.Round(worldPos.y * pixelsPerUnit) / pixelsPerUnit;
-        return new Vector3(x, y, worldPos.z);
     }
 
     public void SetFollowTarget(Transform target) => followTarget = target;
