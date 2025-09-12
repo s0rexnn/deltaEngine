@@ -7,6 +7,7 @@ public class SubMenu : MonoBehaviour
     void Awake()
     {
         menuHandling = GetComponent<MenuManager>();
+
     }
 
     void Update()

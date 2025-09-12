@@ -171,10 +171,7 @@ public class MenuManager : MonoBehaviour
                     }
                 }
                 break;
-
         }
-        
-
     }
 
     public void ToggleMenu(int index)

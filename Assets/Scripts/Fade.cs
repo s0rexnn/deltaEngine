@@ -10,17 +10,6 @@ public class Fade : MonoBehaviour
     {
         color.a = 1f;
     }   
-    void Update()
-    {
-        if (GameStateManager.Instance.isRoomSwapped)
-        {
-            StartCoroutine(FadeIn());
-        }
-        else
-        {
-            StartCoroutine(FadeOut());
-        }
-    }
 
 public IEnumerator FadeOut() 
 {

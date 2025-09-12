@@ -17,16 +17,40 @@ MonoBehaviour:
     portrait: {fileID: -3273652681327956768, guid: 9852abdff82945f47bc60d490a4b7383, type: 3}
     typingSpeed: 0.01
     typingSound: {fileID: 8300000, guid: 468d112ab7d8df040a21d268fc6658dd, type: 3}
+    onEnd:
+      m_PersistentCalls:
+        m_Calls: []
   - text: "* NO WAY ITS LANCER\n  ME BOY!"
     portrait: {fileID: -5952722399778228978, guid: 1e6c7d1a9c1984c4fa81858d1164aef9, type: 3}
     typingSpeed: 0.01
     typingSound: {fileID: 8300000, guid: c94aaef083719cb4c948c3752ea417ee, type: 3}
+    onEnd:
+      m_PersistentCalls:
+        m_Calls: []
   - text: "* It took you long\n  enough to get here\n* lol"
     portrait: {fileID: -5237557365019484423, guid: 9852abdff82945f47bc60d490a4b7383, type: 3}
     typingSpeed: 0.01
     typingSound: {fileID: 8300000, guid: 468d112ab7d8df040a21d268fc6658dd, type: 3}
+    onEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 37944ec8b31d75a4cbb86769767e8291, type: 2}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - text: '* yes sir '
     portrait: {fileID: -4241788728488418786, guid: 1e6c7d1a9c1984c4fa81858d1164aef9, type: 3}
     typingSpeed: 0.07
     typingSound: {fileID: 8300000, guid: c94aaef083719cb4c948c3752ea417ee, type: 3}
+    onEnd:
+      m_PersistentCalls:
+        m_Calls: []
   portrait: {fileID: 1483871162528920390, guid: 9852abdff82945f47bc60d490a4b7383, type: 3}

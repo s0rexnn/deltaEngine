@@ -14,7 +14,6 @@ public class DepthSorting : MonoBehaviour
    
     void LateUpdate()
 
-    // Lower Y position means higher depth
     {
         spriteRenderer.sortingOrder = Mathf.RoundToInt(-transform.position.y * 100f);
     }
