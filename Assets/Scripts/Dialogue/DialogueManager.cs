@@ -17,11 +17,15 @@ public class DialogueManager : MonoBehaviour
 
     private bool dialoguePlaying = false;
     private bool canContinueToNextLine = false;
+    private bool isTyping = false;
     private Coroutine displayLineCoroutine;
+
+
 
     private void Awake()
     {
         story = new Story(inkJSON.text);
+        dialoguePanelUI.dialogueText.richText = true;
     }
 
     private void OnEnable()
@@ -44,7 +48,11 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-        if (dialoguePlaying && Input.GetKeyDown(KeyCode.R))
+        if (dialoguePlaying && isTyping && Input.GetKeyDown(KeyCode.R))
+        {
+            NextLine();
+        }
+        else if (dialoguePlaying && Input.GetKeyDown(KeyCode.R))
         {
             SumbitPressed();
         }
@@ -71,17 +79,41 @@ public class DialogueManager : MonoBehaviour
         ContinueOrExitDialogue();
     }
 
+    private void NextLine()
+    {
+        Debug.Log("Executed");
+        StopAllCoroutines();
+        dialoguePanelUI.dialogueText.text = story.currentText;
+        canContinueToNextLine = true;
+        isTyping = false;
+    }
+ 
     private IEnumerator DisplayLine(string line)
     {
+        bool isAddingRichText = false;
         dialoguePanelUI.dialogueText.text = "";
         canContinueToNextLine = false;
-         
+        isTyping = true;
+
         foreach (char letter in line.ToCharArray())
         {
-            dialoguePanelUI.dialogueText.text += letter;
-            yield return new WaitForSeconds(textSpeed);
+            if (letter == '<' || isAddingRichText)
+            {
+                isAddingRichText = true;
+                dialoguePanelUI.dialogueText.text += letter;
+                if (letter == '>')
+                {
+                    isAddingRichText = false;
+                }
+            }
+            else
+            {
+                dialoguePanelUI.dialogueText.text += letter;
+                yield return new WaitForSeconds(textSpeed);
+            }
         }
         canContinueToNextLine = true;
+        isTyping = false;
     }
 
     private void ContinueOrExitDialogue()

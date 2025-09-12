@@ -1,10 +1,10 @@
 === d_Noelle ===
-[*] H-Hey Noelle...
-[*] S-SUSIE?? WHAT ARE YOU DOING HERE?!?!
-[
+[*] Dang brother, are you <color=red>tweaking?</color>
+[*] BRO, HELP ME GET TO <color=red>TVERIA</color>
+[*] Idi nahoi, <color=green>L BOZO</color>
+[*] Imagine being <color=purple>MAXIM</color>
 
 -> DONE
-
 
 -> END
 

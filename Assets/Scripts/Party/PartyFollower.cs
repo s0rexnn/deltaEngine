@@ -29,19 +29,22 @@ public class PartyFollower : MonoBehaviour
     {
         if (leader != null && leader.positions.Count > stepsBehind)
         {
-            speed = movement.runningSpeed;
             Vector2 targetPos = leader.positions[stepsBehind];
+            speed = movement.currentSpeed;
 
             inputVector = (targetPos - (Vector2)transform.position).normalized;
 
             if (movement.isMoving)
             {
                 currentVelocity = Vector2.one * speed;
-                transform.position = Vector2.MoveTowards(
+                
+                Vector2 newPos = Vector2.MoveTowards(
                    transform.position,
                    targetPos,
-                 speed * Time.deltaTime
+                   speed * Time.deltaTime
                 );
+                 
+                transform.position = newPos;
             }
             else
             {

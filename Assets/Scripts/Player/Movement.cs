@@ -8,12 +8,14 @@ public class Movement : MonoBehaviour
     public enum AxisLock { None, Horizontal, Vertical }
     public AxisLock axisLock = AxisLock.None;
 
+    public float currentSpeed;
+
     [Header("Movement Settings")]
-    public float walkingSpeed = 0f;
-    public float runningSpeed = 0f;
-    public float maxSpeed = 0f;
-    public float acceleration = 0.0001f;
-    public float deceleration = 0.0001f;
+    public float walkingSpeed = 3f;
+    public float runningSpeed = 6f;
+
+    [Header("Animator")]
+    public Animator anim;
 
     public bool isMoving = false;
     public bool canMove = true;
@@ -22,11 +24,7 @@ public class Movement : MonoBehaviour
     private Vector2 lastMoveDirection = Vector2.down;
     private Vector2 input;
 
-    public Animator anim;
     private Rigidbody2D rb;
-
-    [Header("Pixel Snapping")]
-    [SerializeField] private int pixelsPerUnit = 16;
 
     private void Awake()
     {
@@ -69,20 +67,8 @@ public class Movement : MonoBehaviour
                 axisLock = AxisLock.Vertical;
             }
 
-            float currentSpeed = walkingSpeed;
-
-            if ((Input.GetKey(KeyCode.LeftShift) && isMoving) || !canMove)
-            {
-                runningSpeed += acceleration * Time.deltaTime;
-                runningSpeed = Mathf.Clamp(runningSpeed, walkingSpeed, maxSpeed);
-                currentSpeed = runningSpeed;
-            }
-            else
-            {
-                runningSpeed -= deceleration * Time.deltaTime;
-                runningSpeed = Mathf.Clamp(runningSpeed, walkingSpeed, maxSpeed);
-                currentSpeed = runningSpeed;
-            }
+            currentSpeed = Input.GetKey(KeyCode.LeftShift) && isMoving ? runningSpeed : walkingSpeed;
+            Mathf.Clamp(6f, walkingSpeed, runningSpeed);
 
             if (currentSpeed > 4.5f)
                 anim.speed = 1.8f;
@@ -129,11 +115,6 @@ public class Movement : MonoBehaviour
             float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? runningSpeed : walkingSpeed;
             Vector2 move = input * currentSpeed;
             Vector2 targetPos = rb.position + move * Time.fixedDeltaTime;
-
-            // snap before moving
-            float snap = 1f / pixelsPerUnit;
-            targetPos.x = Mathf.Round(targetPos.x / snap) * snap;
-            targetPos.y = Mathf.Round(targetPos.y / snap) * snap;
 
             rb.MovePosition(targetPos);
         }

@@ -40,11 +40,12 @@ public class GameStateManager : MonoBehaviour
         else
         {
             CanPlayerMove = true;
+            playerMovement.canMove = true;
         }
 
         if (GameStateManager.Instance.inDialogue || GameStateManager.Instance.inMenu)
         {
-            playerMovement.runningSpeed = playerMovement.walkingSpeed;
+            playerMovement.currentSpeed = playerMovement.walkingSpeed;
         }
     }
   }

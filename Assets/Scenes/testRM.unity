@@ -167,7 +167,7 @@ MonoBehaviour:
   axisLock: 0
   leader: {fileID: 1201356704}
   speed: 0
-  stepsBehind: 22
+  stepsBehind: 30
   anim: {fileID: 1826191510}
 --- !u!1 &315004963
 GameObject:
@@ -563,7 +563,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DIALOGUE TEXT
+  m_text: <color=red>Dialogue Lines</color>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b79721f641c91c24a90da60ed9e9ffda, type: 2}
   m_sharedMaterial: {fileID: 2217384918962140763, guid: b79721f641c91c24a90da60ed9e9ffda, type: 2}
@@ -726,7 +726,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.49803925, g: 0.49803925, b: 0.49803925, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1166,6 +1166,7 @@ GameObject:
   - component: {fileID: 803401501}
   - component: {fileID: 803401502}
   - component: {fileID: 803401503}
+  - component: {fileID: 803401504}
   m_Layer: 0
   m_Name: Noelle
   m_TagString: Untagged
@@ -1324,6 +1325,52 @@ PolygonCollider2D:
       - {x: 0.78125, y: -0.96875}
       - {x: 0.78125, y: 1.40625}
   m_UseDelaunayMesh: 0
+--- !u!61 &803401504
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803401498}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5625, y: 2.8125}
+    newSize: {x: 1.5625, y: 2.8125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.5625, y: 2.8125}
+  m_EdgeRadius: 0
 --- !u!1 &823102520
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,15 +1659,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axisLock: 0
+  currentSpeed: 0
   walkingSpeed: 3
-  runningSpeed: 3
-  maxSpeed: 6
-  acceleration: 100
-  deceleration: 10
+  runningSpeed: 6
+  anim: {fileID: 543726752}
   isMoving: 0
   canMove: 1
-  anim: {fileID: 543726752}
-  pixelsPerUnit: 16
 --- !u!212 &1201356701
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1761,7 +1805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f471163b2c2e90c46837566a3ab48901, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPositions: 500
+  maxPositions: 60
   positions: []
 --- !u!1 &1292047995
 GameObject:
@@ -1810,6 +1854,9 @@ MonoBehaviour:
   inkJSON: {fileID: 4900000, guid: f9167bc80b51d71419326b4ad3d1bd36, type: 3}
   textSpeed: 0.02
   dialoguePanelUI: {fileID: 539812655}
+  dialoguePlaying: 0
+  canContinueToNextLine: 0
+  isTyping: 0
 --- !u!1 &1309183662
 GameObject:
   m_ObjectHideFlags: 0
@@ -2274,7 +2321,7 @@ MonoBehaviour:
   axisLock: 0
   leader: {fileID: 1201356704}
   speed: 0
-  stepsBehind: 12
+  stepsBehind: 15
   anim: {fileID: 1545184944}
 --- !u!95 &1635989181
 Animator:
